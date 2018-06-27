@@ -25,7 +25,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-! [Walkthrough](simple_todo_video.mp4)
+[Walkthrough](simple_todo_video.mp4)
 
 ## Notes
 
