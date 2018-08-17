@@ -67,12 +67,11 @@ public class MainActivity extends AppCompatActivity {
         lvItems.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener(){
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id){
-                Log.i("MainActivity", "Remvoed item + postition");
                 String deletedWord = items.get(position);
                 items.remove(position); //remove item that was long clicked
                 itemsAdapter.notifyDataSetChanged(); //notify adapter that dataset changed
                 //Toast.makeText(getApplicationContext(), (deletedWord+" is complete"), Toast.LENGTH_SHORT).show();
-                writeItems();
+                Log.i("MainActivity", "Remvoed item + postition");
                 return true;
 
             }
